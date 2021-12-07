@@ -5,8 +5,8 @@
 [Strings]
 
 DeviceGUID = "{ffe1ce84-18a1-4cf9-ac16-df74b7958daa}"
-DeviceClassGUID = "{78a1c341-4539-11d3-b88d-00c04fad5171}"
-Date = "04/26/2010"
+DeviceClassGUID = "{1720fa8e-ed15-4346-b73d-909eb41e89ef}"
+Date = "12/06/2021,6.5.0.0"
 
 ProviderName = "libusb 1.0"
 WinUSB_SvcDesc = "WinUSB Driver Service"
@@ -356,6 +356,9 @@ HKR,,Icon,,-20
 
 ; END_USB_DEVICES
 
+; Microsoft Narrator Device
+"LibUSB-1.0: Microsoft Narrator"=LIBUSB_DEV, USB\NarratorOverride
+
 [libusbDevice_WinUSB.NTamd64]
 ; BEGIN_USB_DEVICES LibUSB-1.0
 
@@ -672,6 +675,9 @@ HKR,,Icon,,-20
 "LibUSB-1.0: EuroBraille [reserved]"=LIBUSB_DEV, USB\VID_C251&PID_1132
 
 ; END_USB_DEVICES
+
+; Microsoft Narrator Device
+"LibUSB-1.0: Microsoft Narrator"=LIBUSB_DEV, USB\NarratorOverride
 
 ; ==================== Installation ===================
 
